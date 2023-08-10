@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image-background">
+        <img src="resource/hero.jpg" alt="Background Image">
+        <div class="banner">
+            <a href="home.html" class="button">Back</a>
+        </div>
+
+        <div class="centered-text">
+            <div class="text-container">
+                <h1> Form </h1>
+                <form action="">
+                    <label for="companyName">ชื่อบริษัท: </label>
+                    <input type="text" id="companyName" name="companyName" placeholder="โปรดระบุชื่อบริษัทของคุณ"><br>
+
+                    <label for="sizing">ขนาดบูธ:</label>
+                    <select name="sizing" id="sizing">
+                        <option value="" selected disabled> โปรดเลือกขนาดพื้นที่ </option>
+                        <option value="10x10">10x10 ฟุต</option>
+                        <option value="10x15">10x15 ฟุต</option>
+                    </select><br>
+
+                    <input type="checkbox" id="needTable" name="needTable" value="needTable">
+                    <label for="needTable"> ต้องการโต๊ะตั้งในบูธหรือไม่ </label><br>
+
+                    <label for="chairNum">จำนวนเก้าอี้: </label>
+                    <input type="number" id="chairNum" name="chairNum" placeholder="โปรดระบุจำนวนเก้าอี้ของคุณ"><br>
+
+                    <label for="contactName">ชื่อผู้ติดต่อ: </label>
+                    <input type="text" id="contactName" name="contactName" placeholder="โปรดระบุชื่อผู้ติดต่อ"><br>
+
+                    <label for="phoneNum">เบอร์ผู้ติดต่อ: </label>
+                    <input type="text" id="phoneNum" name="phoneNum" placeholder="โปรดระบุเบอร์ผู้ติดต่อ"><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div> 
+    </div>    
+</body>
+</html>

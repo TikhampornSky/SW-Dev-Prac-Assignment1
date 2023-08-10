@@ -1,0 +1,89 @@
+.image-background {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.centered-text {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+    font-size: 40px;
+}
+
+.text-container {
+    width: 80%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-highligh {
+    color: #ff0000;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+}
+
+.banner {
+    color: #FFFFFF;
+    text-align: right;
+    padding: 20px;
+}
+  
+.banner h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+  
+.banner p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    width: 80%;
+    font-size: 30px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    font-size: 30px;
+}
